@@ -1,0 +1,25 @@
+1. Change  '::' to ':' for all files movies.dat, ratings.dat and users.dat, so that
+hive can read those file.
+
+2.create required tables with proper partitioning and upload these 3 files.
+
+3. find following quries
+  a. find total user
+  b. find totla movi
+  c. Number of male and female users
+  d. how many user are over 34 years old; in age range "25-34"; bellow 50
+  e: find out total number of movies under Drama caregory 
+  f: Top 10 movies ID those got most 5 rating; change ID to name.
+  g: user who ralted maximum movies; name of those movies.
+  h. number of movies those never rated.
+  i: Rating, moviid and top 3 frequency from each rating group
+
+example 
+Rating, moiv ID , top3 F 
+5,600,387
+5,765,350
+5,400,200
+
+4,345,800
+4,456,776
+4,476,600
